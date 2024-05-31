@@ -3,7 +3,7 @@ import os
 from telebot import types
 import telebot
 
-bot = telebot.TeleBot('7387733428:AAFuiERyYj0VfqUXLxA5zrpf4PSEMP1laME   ')
+bot = telebot.TeleBot('')
 
 def webAppKeyboard(): 
    keyboard = types.ReplyKeyboardMarkup(row_width=1) 
