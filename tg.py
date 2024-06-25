@@ -3,7 +3,11 @@ import os
 from telebot import types
 import telebot
 
+<<<<<<< HEAD:tg.py
 bot = telebot.TeleBot(os.getenv("TOKEN"))
+=======
+bot = telebot.TeleBot('')
+>>>>>>> cd0bb156559e7832b2a7341a87e309b6d6017584:main.py
 
 def webAppKeyboard(): 
    keyboard = types.ReplyKeyboardMarkup(row_width=1) 
